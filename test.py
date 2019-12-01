@@ -1,7 +1,3 @@
-n = 99999
-t = 1
-res = 1
-while t <= n: 
-    res *= t
-    t += 1
-print(len(str(res)))
+c1 = '1'
+c2 = '1'
+print(c2 > c1)
