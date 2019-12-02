@@ -1,3 +1,2 @@
-c1 = '1'
-c2 = '1'
-print(c2 > c1)
+print(bin(99))
+print(type(bin(-99)))
