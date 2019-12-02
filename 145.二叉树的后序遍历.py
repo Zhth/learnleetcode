@@ -38,13 +38,13 @@ class Solution:
     #     res = []
     #     self.postorderCur(res, root)
     #     return res
-    # def postorderCur(self, res, root):
-    #     if root is None:
-    #         return
-    #     self.postorderCur(res, root.left)
-    #     self.postorderCur(res, root.right)
-    #     res.append(root.val)
-    #     return
+    def postorderCur(self, res, root):
+        if root is None:
+            return
+        self.postorderCur(res, root.left)
+        self.postorderCur(res, root.right)
+        res.append(root.val)
+        return
 
 
 # @lc code=end
