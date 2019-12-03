@@ -15,7 +15,5 @@ class Solution:
             res += 1
             hamming = hamming & (hamming - 1)
         return res
-            
-            
-            
+                    
 # @lc code=end
