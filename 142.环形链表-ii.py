@@ -1,3 +1,10 @@
+#
+# @lc app=leetcode.cn id=142 lang=python3
+#
+# [142] 环形链表 II
+#
+
+# @lc code=start
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -19,5 +26,7 @@ class Solution:
         while NodeFast != NodeSlow:
             NodeFast = NodeFast.next
             NodeSlow = NodeSlow.next
-        return NodeSlow
+        return NodeSlow        
         
+# @lc code=end
+
