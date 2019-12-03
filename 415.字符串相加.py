@@ -21,8 +21,6 @@ class Solution:
         return res
         # num1 = int(num1)
         # num2 = int(num2)
-        # return str(num1 + num2)    
-        TabNine::config    
-        
+        # return str(num1 + num2)       
 # @lc code=end
 
