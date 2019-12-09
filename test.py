@@ -1,2 +1,3 @@
-for i in range(10,0, -1):
-    print(i)
+l = {1,2,1}
+l.sort()
+print(l)
