@@ -1,3 +1,2 @@
-l = {1,2,1}
-l.sort()
-print(l)
+a = (1, 2)
+print(a[1])
