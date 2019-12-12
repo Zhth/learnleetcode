@@ -25,10 +25,6 @@ class Solution:
                         temp.append((t, 2*num + i))
             stack = temp
         return lenth + 1
-            
-
-
-
-        
+       
 # @lc code=end
 
