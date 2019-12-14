@@ -7,10 +7,11 @@
 # @lc code=start
 class Solution:
     def dayOfYear(self, date: str) -> int:
-        d = list(map(int, date.split('-')))
-        leap = bool((d[0]%4 == 0 and d[0]%100 != 0) or d[0]%400 == 0)
+        y, m, d = map(int, date.split('-'))
         monthday = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334]
-        return monthday[d[1] - 1] + d[2] + (leap and d[1] > 2)
+        if m <= 2: return monthday[m - 1] + d
+        leap = bool((y%4 == 0 and y%100 != 0) or y%400 == 0) 
+        return monthday[m - 1] + d + leap
         
 # @lc code=end
 
