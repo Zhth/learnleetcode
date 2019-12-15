@@ -1,1 +1,3 @@
-print(divmod(-1,10))
+a = 'sadgs'
+b = a.reverse
+print(b)
