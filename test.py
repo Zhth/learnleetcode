@@ -1,3 +1,4 @@
-a = 'sadgs'
-b = a.reverse
-print(b)
+a = 'sags'
+b = 'sa'
+a = b
+print(a)
