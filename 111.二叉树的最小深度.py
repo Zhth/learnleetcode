@@ -14,6 +14,20 @@
 
 class Solution:
     def minDepth(self, root: TreeNode) -> int:
-        
+        if root is None:
+            return 0
+        s = [root]
+        res = 1
+        while True:
+            t = []
+            for node in s:
+                if node.left is None and node.right is None:
+                    return res
+                if node.left:
+                    t.append(node.left)
+                if node.right:
+                    t.append(node.right)
+            s = t
+            res += 1       
 # @lc code=end
 
