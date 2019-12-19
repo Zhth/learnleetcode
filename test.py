@@ -1,11 +1,6 @@
-class TreeNode:
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
-
-
-a = TreeNode(1)
-b = TreeNode(1)
-print(a == b)
-print(a is b)
+from collections import Counter
+a = [1,1,3,4,5,3,6]
+b = Counter(a)
+c = {}
+if len(c) == 0:
+    print('a')
