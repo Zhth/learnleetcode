@@ -10,7 +10,4 @@ class a():
         self.__n = 1
 
 if __name__ == "__main__":
-    b = a()
-    print(b._a__n)
-    b.n = 2
-    print(b.n)
+    print(divmod(1, 3))
