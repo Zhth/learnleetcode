@@ -10,4 +10,5 @@ class a():
         self.__n = 1
 
 if __name__ == "__main__":
-    print(divmod(1, 3))
+    a = '1234'
+    print(a[:2])
