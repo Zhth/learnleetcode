@@ -10,5 +10,7 @@ class a():
         self.__n = 1
 
 if __name__ == "__main__":
-    a = '1234'
-    print(a[:2])
+    a = [1, 2, 3]
+    b = a
+    b.pop()
+    print(a)
