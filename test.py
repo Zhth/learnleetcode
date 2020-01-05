@@ -10,7 +10,9 @@ class a():
         self.__n = 1
 
 if __name__ == "__main__":
-    a = [1, 2, 3]
-    b = a
-    b.pop()
-    print(a)
+    i = [(1, 2), (3, 4)]
+    for a in i:
+        index, v = a
+        if index == 1:
+            del a
+    print(i)
